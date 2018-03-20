@@ -1,0 +1,24 @@
+{
+  "name": "VisualEditorDoubleClickPreference",
+  "version": "1.0.0",
+  "author": [
+    "Alexey"
+  ],
+  "url": "https://www.mediawiki.org/wiki/Extension:VisualEditorDoubleClickPreference",
+  "descriptionmsg": "visualeditordoubleclickpreference-desc",
+  "license-name": "GPL-2.0+",
+  "requires": {
+    "MediaWiki": ">= 1.28.0"
+  },
+  "callback": "VisualEditorDoubleClickPreference::onRegistration",
+  "type": "extension",
+  "MessagesDirs": {
+    "VisualEditorDoubleClickPreference": [
+      "i18n"
+    ]
+  },
+  "AutoloadClasses": {
+    "VisualEditorDoubleClickPreference": "VisualEditorDoubleClickPreference.class.php",
+    "VisualEditorDoubleClickPreferenceHooks": "VisualEditorDoubleClickPreferenceHooks.php"
+  }
+}
